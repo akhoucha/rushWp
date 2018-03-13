@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/scripts/setenv.sh
+
+exec /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/common/bin/.gs.bin  "$@"

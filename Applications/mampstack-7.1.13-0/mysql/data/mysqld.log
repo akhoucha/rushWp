@@ -1,0 +1,240 @@
+2018-02-01T18:07:46.6NZ mysqld_safe Logging to '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/mysqld.log'.
+2018-02-01T18:07:46.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data
+2018-02-01T18:07:46.821565Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-02-01T18:07:46.821927Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-02-01T18:07:46.821982Z 0 [Note] /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin/mysqld.bin (mysqld 5.7.20) starting as process 79383 ...
+2018-02-01T18:07:46.827553Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-02-01T18:07:46.827573Z 0 [Note] InnoDB: Uses event mutexes
+2018-02-01T18:07:46.827584Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-02-01T18:07:46.827592Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-01T18:07:46.827968Z 0 [Note] InnoDB: Number of pools: 1
+2018-02-01T18:07:46.828102Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-02-01T18:07:46.829532Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-02-01T18:07:46.841464Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-01T18:07:46.856687Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-01T18:07:46.863758Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-02-01T18:07:46.863921Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-02-01T18:07:47.012780Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-02-01T18:07:47.013660Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-02-01T18:07:47.013673Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-02-01T18:07:47.013870Z 0 [Note] InnoDB: Waiting for purge to start
+2018-02-01T18:07:47.069011Z 0 [Note] InnoDB: 5.7.20 started; log sequence number 2565377
+2018-02-01T18:07:47.069224Z 0 [Note] InnoDB: Loading buffer pool(s) from /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/ib_buffer_pool
+2018-02-01T18:07:47.069319Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-02-01T18:07:47.071055Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180201 19:07:47
+2018-02-01T18:07:47.075589Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-02-01T18:07:47.075616Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-02-01T18:07:47.076138Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-02-01T18:07:47.076235Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-02-01T18:07:47.078861Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:07:47.078900Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:07:47.078915Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:07:47.078944Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:07:47.078956Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:07:47.078981Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:07:47.081181Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:07:47.081208Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:07:47.090658Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-02-01T18:07:47.090828Z 0 [Note] /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.20'  socket: '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2018-02-01T18:07:47.090859Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2018-02-01T18:07:47.090866Z 0 [Note] Beginning of list of non-natively partitioned tables
+2018-02-01T18:07:47.105541Z 0 [Note] End of list of non-natively partitioned tables
+2018-02-01T18:21:36.073364Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-02-01T18:21:36.073913Z 0 [Note] Shutting down slave threads
+2018-02-01T18:21:36.073957Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-02-01T18:21:36.074004Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-02-01T18:21:36.074091Z 0 [Note] Binlog end
+2018-02-01T18:21:36.079648Z 0 [Note] Shutting down plugin 'ngram'
+2018-02-01T18:21:36.079678Z 0 [Note] Shutting down plugin 'partition'
+2018-02-01T18:21:36.079685Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-02-01T18:21:36.079699Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-02-01T18:21:36.079706Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-02-01T18:21:36.079782Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-02-01T18:21:36.079792Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-02-01T18:21:36.079839Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-02-01T18:21:36.079846Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-02-01T18:21:36.079852Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-02-01T18:21:36.079857Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-02-01T18:21:36.079863Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-02-01T18:21:36.079868Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-02-01T18:21:36.079874Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-02-01T18:21:36.079879Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-02-01T18:21:36.079885Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-02-01T18:21:36.079890Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-02-01T18:21:36.079896Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-02-01T18:21:36.079901Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-02-01T18:21:36.079907Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-02-01T18:21:36.079912Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-02-01T18:21:36.079918Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-02-01T18:21:36.079923Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-02-01T18:21:36.079929Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-02-01T18:21:36.079934Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-02-01T18:21:36.079948Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-02-01T18:21:36.079955Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-02-01T18:21:36.079960Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-02-01T18:21:36.079966Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-02-01T18:21:36.079973Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-02-01T18:21:36.079979Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-02-01T18:21:36.079985Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-02-01T18:21:36.079991Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-02-01T18:21:36.079997Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-02-01T18:21:36.080003Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-02-01T18:21:36.080008Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-02-01T18:21:36.080015Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-02-01T18:21:36.080021Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-02-01T18:21:36.080118Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-02-01T18:21:36.080212Z 0 [Note] InnoDB: Starting shutdown...
+2018-02-01T18:21:36.185603Z 0 [Note] InnoDB: Dumping buffer pool(s) to /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/ib_buffer_pool
+2018-02-01T18:21:36.186009Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180201 19:21:36
+2018-02-01T18:21:37.552279Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2565405
+2018-02-01T18:21:37.552462Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-02-01T18:21:37.552478Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-02-01T18:21:37.552486Z 0 [Note] Shutting down plugin 'CSV'
+2018-02-01T18:21:37.552497Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-02-01T18:21:37.552512Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-02-01T18:21:37.552806Z 0 [Note] Shutting down plugin 'binlog'
+2018-02-01T18:21:37.553402Z 0 [Note] /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin/mysqld.bin: Shutdown complete
+
+2018-02-01T18:21:37.6NZ mysqld_safe mysqld from pid file /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/mysqld.pid ended
+2018-02-01T18:21:47.6NZ mysqld_safe Logging to '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/mysqld.log'.
+2018-02-01T18:21:47.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data
+2018-02-01T18:21:47.488630Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-02-01T18:21:47.488970Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-02-01T18:21:47.489027Z 0 [Note] /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin/mysqld.bin (mysqld 5.7.20) starting as process 83216 ...
+2018-02-01T18:21:47.497889Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-02-01T18:21:47.497915Z 0 [Note] InnoDB: Uses event mutexes
+2018-02-01T18:21:47.497923Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-02-01T18:21:47.497931Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-01T18:21:47.498335Z 0 [Note] InnoDB: Number of pools: 1
+2018-02-01T18:21:47.498479Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-02-01T18:21:47.500111Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-02-01T18:21:47.512648Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-01T18:21:47.528091Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-01T18:21:47.535231Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-02-01T18:21:47.535383Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-02-01T18:21:47.687203Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-02-01T18:21:47.688083Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-02-01T18:21:47.688097Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-02-01T18:21:47.688291Z 0 [Note] InnoDB: Waiting for purge to start
+2018-02-01T18:21:47.738488Z 0 [Note] InnoDB: 5.7.20 started; log sequence number 2565405
+2018-02-01T18:21:47.738623Z 0 [Note] InnoDB: Loading buffer pool(s) from /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/ib_buffer_pool
+2018-02-01T18:21:47.738748Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-02-01T18:21:47.741815Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180201 19:21:47
+2018-02-01T18:21:47.752830Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-02-01T18:21:47.752855Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-02-01T18:21:47.753216Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-02-01T18:21:47.753303Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-02-01T18:21:47.761589Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:21:47.761629Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:21:47.761645Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:21:47.761676Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:21:47.761688Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:21:47.761713Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:21:47.772502Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:21:47.772530Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:21:47.891321Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-02-01T18:21:47.891478Z 0 [Note] /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.20'  socket: '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2018-02-01T18:21:47.891494Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2018-02-01T18:21:47.891501Z 0 [Note] Beginning of list of non-natively partitioned tables
+2018-02-01T18:21:47.981579Z 0 [Note] End of list of non-natively partitioned tables
+2018-02-01T18:31:31.741779Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-02-01T18:31:31.742250Z 0 [Note] Shutting down slave threads
+2018-02-01T18:31:31.742270Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-02-01T18:31:31.742281Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-02-01T18:31:31.742322Z 0 [Note] Binlog end
+2018-02-01T18:31:31.743135Z 0 [Note] Shutting down plugin 'ngram'
+2018-02-01T18:31:31.743147Z 0 [Note] Shutting down plugin 'partition'
+2018-02-01T18:31:31.743154Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-02-01T18:31:31.743161Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-02-01T18:31:31.743167Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-02-01T18:31:31.743188Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-02-01T18:31:31.743200Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-02-01T18:31:31.743225Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-02-01T18:31:31.743232Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-02-01T18:31:31.743239Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-02-01T18:31:31.743244Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-02-01T18:31:31.743250Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-02-01T18:31:31.743256Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-02-01T18:31:31.743262Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-02-01T18:31:31.743268Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-02-01T18:31:31.743274Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-02-01T18:31:31.743280Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-02-01T18:31:31.743286Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-02-01T18:31:31.743292Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-02-01T18:31:31.743297Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-02-01T18:31:31.743303Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-02-01T18:31:31.743309Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-02-01T18:31:31.743315Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-02-01T18:31:31.743321Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-02-01T18:31:31.743327Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-02-01T18:31:31.743333Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-02-01T18:31:31.743346Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-02-01T18:31:31.743352Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-02-01T18:31:31.743358Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-02-01T18:31:31.743363Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-02-01T18:31:31.743369Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-02-01T18:31:31.743375Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-02-01T18:31:31.743381Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-02-01T18:31:31.743387Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-02-01T18:31:31.743393Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-02-01T18:31:31.743399Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-02-01T18:31:31.743405Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-02-01T18:31:31.743410Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-02-01T18:31:31.743451Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-02-01T18:31:31.743503Z 0 [Note] InnoDB: Starting shutdown...
+2018-02-01T18:31:31.843800Z 0 [Note] InnoDB: Dumping buffer pool(s) to /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/ib_buffer_pool
+2018-02-01T18:31:31.844238Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180201 19:31:31
+2018-02-01T18:31:32.583923Z 0 [Note] InnoDB: Shutdown completed; log sequence number 5389554
+2018-02-01T18:31:32.584111Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-02-01T18:31:32.584125Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-02-01T18:31:32.584132Z 0 [Note] Shutting down plugin 'CSV'
+2018-02-01T18:31:32.584139Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-02-01T18:31:32.584144Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-02-01T18:31:32.584249Z 0 [Note] Shutting down plugin 'binlog'
+2018-02-01T18:31:32.584578Z 0 [Note] /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin/mysqld.bin: Shutdown complete
+
+2018-02-01T18:31:32.6NZ mysqld_safe mysqld from pid file /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/mysqld.pid ended
+2018-02-01T18:31:41.6NZ mysqld_safe Logging to '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/mysqld.log'.
+2018-02-01T18:31:42.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data
+2018-02-01T18:31:42.216824Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-02-01T18:31:42.217138Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-02-01T18:31:42.217200Z 0 [Note] /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin/mysqld.bin (mysqld 5.7.20) starting as process 86731 ...
+2018-02-01T18:31:42.225603Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-02-01T18:31:42.225625Z 0 [Note] InnoDB: Uses event mutexes
+2018-02-01T18:31:42.225634Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-02-01T18:31:42.225641Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-02-01T18:31:42.226019Z 0 [Note] InnoDB: Number of pools: 1
+2018-02-01T18:31:42.226170Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-02-01T18:31:42.227734Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-02-01T18:31:42.240189Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-02-01T18:31:42.255002Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-02-01T18:31:42.266920Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-02-01T18:31:42.267059Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-02-01T18:31:42.415681Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-02-01T18:31:42.416601Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-02-01T18:31:42.416629Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-02-01T18:31:42.416831Z 0 [Note] InnoDB: Waiting for purge to start
+2018-02-01T18:31:42.467033Z 0 [Note] InnoDB: 5.7.20 started; log sequence number 5389554
+2018-02-01T18:31:42.467200Z 0 [Note] InnoDB: Loading buffer pool(s) from /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/data/ib_buffer_pool
+2018-02-01T18:31:42.467305Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-02-01T18:31:42.469973Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180201 19:31:42
+2018-02-01T18:31:42.476424Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-02-01T18:31:42.476448Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-02-01T18:31:42.476820Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-02-01T18:31:42.476917Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-02-01T18:31:42.485933Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:31:42.485973Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:31:42.485988Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:31:42.486018Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:31:42.486030Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:31:42.486054Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:31:42.497910Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:31:42.497941Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-02-01T18:31:42.615587Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-02-01T18:31:42.615731Z 0 [Note] /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.20'  socket: '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2018-02-01T18:31:42.615747Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2018-02-01T18:31:42.615754Z 0 [Note] Beginning of list of non-natively partitioned tables
+2018-02-01T18:31:42.705893Z 0 [Note] End of list of non-natively partitioned tables

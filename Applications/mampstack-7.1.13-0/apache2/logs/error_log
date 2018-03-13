@@ -1,0 +1,20 @@
+[Thu Feb 01 19:08:11.417590 2018] [ssl:warn] [pid 79474] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 01 19:08:11.486104 2018] [ssl:warn] [pid 79475] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 01 19:08:11.488334 2018] [mpm_prefork:notice] [pid 79475] AH00163: Apache/2.4.29 (Unix) PHP/7.1.13 OpenSSL/1.0.2n configured -- resuming normal operations
+[Thu Feb 01 19:08:11.488383 2018] [core:notice] [pid 79475] AH00094: Command line: '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/bin/httpd.bin -f /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/conf/httpd.conf'
+[Thu Feb 01 19:08:14.672690 2018] [mpm_prefork:notice] [pid 79475] AH00169: caught SIGTERM, shutting down
+[Thu Feb 01 19:08:17.393004 2018] [ssl:warn] [pid 79511] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 01 19:08:17.456053 2018] [ssl:warn] [pid 79512] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 01 19:08:17.458362 2018] [mpm_prefork:notice] [pid 79512] AH00163: Apache/2.4.29 (Unix) PHP/7.1.13 OpenSSL/1.0.2n configured -- resuming normal operations
+[Thu Feb 01 19:08:17.458409 2018] [core:notice] [pid 79512] AH00094: Command line: '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/bin/httpd.bin -f /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/conf/httpd.conf'
+[Thu Feb 01 19:33:51.828793 2018] [mpm_prefork:notice] [pid 79512] AH00169: caught SIGTERM, shutting down
+[Thu Feb 01 19:33:56.030555 2018] [ssl:warn] [pid 88158] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 01 19:33:56.099643 2018] [ssl:warn] [pid 88159] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 01 19:33:56.101667 2018] [mpm_prefork:notice] [pid 88159] AH00163: Apache/2.4.29 (Unix) PHP/7.1.13 OpenSSL/1.0.2n configured -- resuming normal operations
+[Thu Feb 01 19:33:56.101715 2018] [core:notice] [pid 88159] AH00094: Command line: '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/bin/httpd.bin -f /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/conf/httpd.conf'
+[Thu Feb 01 19:34:47.733090 2018] [mpm_prefork:notice] [pid 88159] AH00169: caught SIGTERM, shutting down
+[Thu Feb 01 19:34:51.906020 2018] [ssl:warn] [pid 88372] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 01 19:34:51.967467 2018] [ssl:warn] [pid 88373] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Thu Feb 01 19:34:51.969762 2018] [mpm_prefork:notice] [pid 88373] AH00163: Apache/2.4.29 (Unix) PHP/7.1.13 OpenSSL/1.0.2n configured -- resuming normal operations
+[Thu Feb 01 19:34:51.969820 2018] [core:notice] [pid 88373] AH00094: Command line: '/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/bin/httpd.bin -f /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/conf/httpd.conf'
+sh: /usr/bin/sendmail: No such file or directory

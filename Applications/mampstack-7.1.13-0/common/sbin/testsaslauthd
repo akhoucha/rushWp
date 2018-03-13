@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/scripts/setenv.sh
+SASL_PATH="/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/common/lib/sasl2"
+                export SASL_PATH
+exec /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/common/sbin/.testsaslauthd.bin -f "/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/common/etc/sasldb2" "$@"

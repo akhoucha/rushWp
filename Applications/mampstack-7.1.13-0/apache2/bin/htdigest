@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/bin/envvars
+exec /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/bin/htdigest.bin "$@"

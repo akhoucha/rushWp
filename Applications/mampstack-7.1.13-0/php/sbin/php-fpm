@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/scripts/setenv.sh
+
+exec /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/php/sbin/.php-fpm.bin -y /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/php/etc/php-fpm.conf -p /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/php/var/ -c /Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/php/etc/php.ini "$@"

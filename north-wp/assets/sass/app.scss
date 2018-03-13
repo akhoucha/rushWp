@@ -1,0 +1,158 @@
+@import "compass/css3";
+@import 'compass/css3/filter';
+@import "compass/css3/user-interface";
+
+$break-small: 40.063em; //640
+$break-medium: 64.063em; //1024
+$break-large: 75.063em; //1200
+$break-xlarge: 90.063em; //1440
+
+$color1: #151515; // black
+$color2: #e5e5e5; // light-grey
+$color3: #647694; // blue
+$color4: #eaeaea; // light border
+
+$transition: cubic-bezier(0.25,.46,.45,.94);
+
+$social: (
+	facebook: #3b5998,
+	google-plus: #dd4b39,
+	linkedin: #007bb6,
+	pinterest: #cb2027,
+	twitter: #00aced,
+	instagram: #3f729b,
+	vk: #45668e,
+	tumblr: #35465c,
+	xing: #cfdc00,
+	soundcloud: #f80,
+	dribbble: #ea4c89,
+	youtube: #e52d27,
+	spotify: #7ab800,
+	behance: #1769ff,
+	deviantart: #4e6252,
+	vimeo: #1ab7ea,
+	flickr: #0063dc,
+	rss: #f26522,
+	twitch: #6441a5,
+	fivehundred: #0099e5,
+	whatsapp: #25d366
+);
+
+/*------------------------------------------------------------------
+Foundation
+*/
+@import "foundation.scss";
+
+/*------------------------------------------------------------------
+Re-usable Styles
+*/
+@import "utilities.scss";
+
+/*------------------------------------------------------------------
+Body
+*/
+@import "structure.scss";
+
+/*------------------------------------------------------------------
+Typography
+*/
+@import "typography.scss";
+
+/*------------------------------------------------------------------
+Header
+*/
+@import "header.scss";
+
+/*------------------------------------------------------------------
+Footer
+*/
+@import "footer.scss";
+
+/*------------------------------------------------------------------
+Magnific Popup & Fresco
+*/
+@import "plugin-mfp.scss";
+
+/*------------------------------------------------------------------
+Post Syling
+*/
+@import "posts.scss";
+
+/*------------------------------------------------------------------
+Sidebar & Widgets
+*/
+@import "sidebar.scss";
+
+/*------------------------------------------------------------------
+Pagination
+*/
+@import "pagination.scss";
+
+/*------------------------------------------------------------------
+Carousel
+*/
+@import "plugin-slick.scss";
+
+/*------------------------------------------------------------------
+Plugin - Full Page
+*/
+@import "plugin-fullPage.scss";
+
+/*------------------------------------------------------------------
+Form Styling
+*/
+@import "forms.scss";
+
+/*------------------------------------------------------------------
+Contact Page
+*/
+@import "contact.scss";
+
+/*------------------------------------------------------------------
+404 Page
+*/
+@import "404.scss";
+
+/*------------------------------------------------------------------
+WP-Specific
+*/
+@import "wpspecific.scss";
+
+/*------------------------------------------------------------------
+Side Panels
+*/
+@import "side-panel.scss";
+@import "mobilemenu.scss";
+@import "woocommerce-sidecart.scss";
+@import "woocommerce-quickshop.scss";
+
+/*------------------------------------------------------------------
+Comments
+*/
+@import "comments.scss";
+
+/*------------------------------------------------------------------
+Shop
+*/
+@import "woocommerce-general.scss";
+@import "woocommerce-products.scss";
+@import "woocommerce-productpage.scss";
+@import "woocommerce-cart.scss";
+@import "woocommerce-checkout.scss";
+@import "woocommerce-myaccount.scss";
+@import "woocommerce-wishlist.scss";
+
+/*------------------------------------------------------------------
+Product Page
+*/
+@import "easyzoom.scss";
+
+/*------------------------------------------------------------------
+Shortcodes
+*/
+@import "shortcodes.scss";
+
+/*------------------------------------------------------------------
+Product Filter
+*/
+@import "plugins.scss";

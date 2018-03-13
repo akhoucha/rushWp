@@ -1,0 +1,10 @@
+
+PATH="/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/git/bin:/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/sqlite/bin:/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/php/bin:/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/mysql/bin:/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/apache2/bin:/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/common/bin:$PATH"
+BITNAMI_ROOT="/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0"
+export BITNAMI_ROOT
+
+
+if [ "$BASH" != "" -a -s "/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/git/scripts/git-completion.bash" ]; then
+    . "/Users/akhoucha/Documents/akhoucha/Applications/mampstack-7.1.13-0/git/scripts/git-completion.bash"
+fi
+GIT_PS1_SHOWDIRTYSTATE=true

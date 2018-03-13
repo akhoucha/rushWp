@@ -1,0 +1,1365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 'north'\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-12 11:03+0300\n"
+"PO-Revision-Date: 2017-12-12 11:03+0300\n"
+"Last-Translator: Ant Ekşiler <anteksiler@gmail.com>\n"
+"Language-Team: Fuel Themes <support@fuelthemes.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;esc_attr__;esc_attr_x;"
+"esc_attr_e\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: inc/admin\n"
+
+#: 404.php:5
+msgid "Page cannot be found."
+msgstr ""
+
+#: 404.php:6
+msgid "We are sorry, but the page you're looking for cannot be found."
+msgstr ""
+
+#: 404.php:7
+msgid "BACK TO HOME"
+msgstr ""
+
+#: comments.php:24
+msgid "on"
+msgstr ""
+
+#: comments.php:36
+msgid "Reply"
+msgstr ""
+
+#: comments.php:53
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:69 inc/visualcomposer-extend.php:966
+msgid "Name"
+msgstr ""
+
+#: comments.php:71
+msgid "Email"
+msgstr ""
+
+#: comments.php:73
+msgid "Website"
+msgstr ""
+
+#: comments.php:75
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:77
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:79
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:81
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:85
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:86
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:89
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:91
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/ajax.php:91
+msgid "No results"
+msgstr ""
+
+#: inc/ajax.php:132
+msgid "<strong>Oh snap!</strong> That email address is already subscribed!"
+msgstr ""
+
+#: inc/ajax.php:141
+msgid "<strong>Well done!</strong> Your address has been added"
+msgstr ""
+
+#: inc/ajax.php:145
+msgid "<strong>Oh snap!</strong> Please enter a valid email address"
+msgstr ""
+
+#: inc/misc.php:787 searchform.php:4 woocommerce/product-searchform.php:27
+msgid "Search"
+msgstr ""
+
+#: inc/misc.php:836
+msgid "Your e-mail address"
+msgstr ""
+
+#: inc/misc.php:837
+msgid "Subscribe Now"
+msgstr ""
+
+#: inc/misc.php:1028
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/misc.php:1045 inc/woocommerce.php:91
+msgid "Prev"
+msgstr ""
+
+#: inc/misc.php:1046 inc/woocommerce.php:92
+msgid "Next"
+msgstr ""
+
+#: inc/misc.php:1056 inc/script-calls.php:64
+msgid "Load More"
+msgstr ""
+
+#: inc/misc.php:1079
+msgid "Share This"
+msgstr ""
+
+#: inc/misc.php:1192
+msgid "Previous Article"
+msgstr ""
+
+#: inc/misc.php:1210
+msgid "Next Article"
+msgstr ""
+
+#: inc/misc.php:1291
+#, php-format
+msgid "Thank you for choosing %1$sFuel Themes%2$s"
+msgstr ""
+
+#: inc/script-calls.php:65
+msgid "Loading ..."
+msgstr ""
+
+#: inc/script-calls.php:66
+msgid "All Posts Loaded"
+msgstr ""
+
+#: inc/script-calls.php:67
+msgid "All Products Loaded"
+msgstr ""
+
+#: inc/script-calls.php:68
+msgid "results found."
+msgstr ""
+
+#: inc/templates/header/header-shop-filters.php:4 inc/woocommerce.php:104
+msgid "Filter"
+msgstr ""
+
+#: inc/templates/header/mobile-menu.php:4
+msgid "Menu"
+msgstr ""
+
+#: inc/templates/header/mobile-menu.php:5 inc/woocommerce.php:105
+#: inc/woocommerce.php:122 inc/woocommerce.php:154
+msgid "Close"
+msgstr ""
+
+#: inc/templates/postbit/style1.php:15
+msgid "By"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:5 inc/visualcomposer-extend.php:492
+msgid "Animation"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:44 inc/visualcomposer-extend.php:55
+msgid "Column Content Color"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:51 inc/visualcomposer-extend.php:62
+msgid "If you white-colored contents for this column, select Light."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:81
+msgid "Enable Max Width"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:87
+msgid ""
+"If you enable this, the row won't exceed the max width, especially inside a "
+"full-width parent row."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:92 inc/visualcomposer-extend.php:123
+msgid "Disable Padding"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:98
+msgid "If you enable this, the columns inside won't leave padding on the sides"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:113
+msgid "Enable Full Width"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:119
+msgid "If you enable this, this row will fill the screen"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:129
+msgid "If you enable this, this row won't leave padding on the sides"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:133
+msgid "Full Height Row"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:138
+msgid ""
+"If enabled, this will cause this row to always fill the height of the window."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:142
+msgid "Video Background"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:145
+msgid "You can specify a video background file here (mp4)"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:149
+msgid "Video Overlay Color"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:152
+msgid "If you want, you can select an overlay color."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:156
+msgid "Disable AutoPlay"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:162
+msgid ""
+"If enabled, the video won't start automatically and can be toggled using the "
+"Play Button Element."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:166
+msgid "Header Logo Color"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:174
+msgid ""
+"This setting affects the color of the logo when snap to scroll template is "
+"being used."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:179
+msgid "Add to Cart Button"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:183 inc/visualcomposer-extend.php:256
+#: inc/visualcomposer-extend.php:303 inc/visualcomposer-extend.php:363
+#: inc/visualcomposer-extend.php:417 inc/visualcomposer-extend.php:519
+#: inc/visualcomposer-extend.php:608 inc/visualcomposer-extend.php:647
+#: inc/visualcomposer-extend.php:690 inc/visualcomposer-extend.php:723
+#: inc/visualcomposer-extend.php:734 inc/visualcomposer-extend.php:806
+#: inc/visualcomposer-extend.php:854 inc/visualcomposer-extend.php:885
+#: inc/visualcomposer-extend.php:916 inc/visualcomposer-extend.php:956
+#: inc/visualcomposer-extend.php:1012 inc/visualcomposer-extend.php:1035
+msgid "by Fuel Themes"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:188
+msgid "Product ID"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:190
+msgid "Only enter 1 Product ID"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:194
+msgid "Display Product Title?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:199
+msgid "If you want to show the product title, enable this"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:203
+msgid "Display Product Excerpt?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:208
+msgid "If you want to show the product excerpt, enable this"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:212
+msgid "Display Product Price?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:217
+msgid "If you want to show the price, enable this"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:221
+msgid "Button Style"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:224 inc/visualcomposer-extend.php:270
+msgid "This changes the look of the button"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:228
+msgid "Button Color"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:234 inc/visualcomposer-extend.php:280
+msgid "This changes the color of the button"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:238 inc/visualcomposer-extend.php:433
+msgid "Alignment"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:247
+msgid "Single Add-to-Cart button"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:252
+msgid "Button"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:260 inc/visualcomposer-extend.php:475
+msgid "Link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:262
+msgid "Enter url for link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:267 inc/visualcomposer-extend.php:865
+#: inc/visualcomposer-extend.php:1017
+msgid "Style"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:274
+msgid "Color"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:285
+msgid "Full Width"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:290
+msgid "If enabled, this will make the button fill it's container"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:293
+msgid "Add an animated button"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:298
+msgid "Contact Map Parent"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:308
+msgid "Map Height"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:312
+#, php-format
+msgid ""
+"Enter height of the map in vh (0-100). For example, 50 will be 50% of "
+"viewport height and 100 will be full height. <small>Make sure you have "
+"filled in your Google Maps API inside Appearance > Theme Options.</small>"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:316
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:319
+msgid "Set map zoom level. Leave 0 to automatically fit to bounds."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:323
+msgid "Map Controls"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:327
+msgid "Pan Control"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:328
+msgid "Zoom Control"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:329
+msgid "Map Type Control"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:330
+msgid "Scale Control"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:331
+msgid "Street View Control"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:333
+msgid "Toggle map options."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:337
+msgid "Map Type"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:341
+msgid "Roadmap"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:342
+msgid "Satellite"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:343
+msgid "Hybrid"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:345
+msgid "Choose map style."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:349
+msgid "Map Style"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:351
+msgid ""
+"Paste the style code here. Browse map styles in <a href=\"https://snazzymaps."
+"com/\" target=\"_blank\">SnazzyMaps</a>"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:354
+msgid "Insert your Contact Map"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:359
+msgid "Contact Map Location"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:368
+msgid "Marker Image"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:370
+msgid "Add your Custom marker image or use default one."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:374
+msgid "Retina Marker"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:377
+msgid "Yes"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:379
+msgid ""
+"Enabling this option will reduce the size of marker for 50%, example if "
+"marker is 32x32 it will be 16x16."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:383
+msgid "Latitude"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:386
+msgid ""
+"Enter latitude coordinate. To select map coordinates <a href=\"http://www."
+"latlong.net/convert-address-to-lat-long.html\" target=\"_blank\">click here</"
+"a>."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:390
+msgid "Longitude"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:393
+msgid "Enter longitude coordinate."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:397
+msgid "Marker Title"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:402
+msgid "Marker Description"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:413
+msgid "Iconbox"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:421
+msgid "Type"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:446
+msgid "Add Background Image"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:452
+msgid "Icon"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:458
+msgid "SVG Icon Color"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:463
+msgid "Image As Icon"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:465
+msgid "You can set an image instead of an icon."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:469
+msgid "Image Width"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:471
+msgid ""
+"If you are using an image, you can set custom width here. Default is 64 "
+"(pixels)."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:477
+msgid "Add a link to the iconbox if desired."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:481
+msgid "Heading"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:487
+msgid "Content"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:499
+msgid "You can disable animation if you like."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:503
+msgid "Animation Speed"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:506
+msgid "Speed of the animation in seconds"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:510
+msgid "Iconboxes with different animations"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:523 inc/visualcomposer-extend.php:694
+msgid "Select Image"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:528
+msgid "Display Caption?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:533
+msgid "If selected, the image caption will be displayed."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:537
+msgid "Caption Style"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:543
+msgid "Select caption style."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:548
+msgid "Text Below Image"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:553
+msgid "Retina Size?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:558
+msgid ""
+"If selected, the image will be display half-size, so it looks crisps on "
+"retina screens. Full Width setting will override this."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:562 inc/visualcomposer-extend.php:705
+msgid "Full Width?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:567 inc/visualcomposer-extend.php:710
+msgid "If selected, the image will always fill its container"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:572
+msgid "Image size"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:574
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height). Leave empty to use 'thumbnail' size."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:578
+msgid "Image alignment"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:581
+msgid "Select image alignment."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:585
+msgid "Link to Full-Width Image?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:593
+msgid "Image link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:595
+msgid "Enter url if you want this image to have link."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:599
+msgid "Add an animated image"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:604
+msgid "Image Slider"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:612
+msgid "Select Images"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:618
+msgid "Width"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:620
+msgid ""
+"Enter the width of the images. The slider will fill the width of the "
+"container, so make sure you size the columns accordingly."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:624
+msgid "Height"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:626
+msgid "Enter the height of the images."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:630
+msgid "Navigation Arrows"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:635
+msgid "Check this if you want to show navigation arrows."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:638
+msgid "Add an image slider"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:643
+msgid "Instagram"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:651
+msgid "Number of Photos"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:653
+msgid "Number of Instagram Photos to retrieve."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:657 inc/visualcomposer-extend.php:786
+#: inc/visualcomposer-extend.php:896 inc/visualcomposer-extend.php:926
+msgid "Columns"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:664
+msgid "Add Padding between photos?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:669
+msgid "You can add spaces between photos"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:673
+msgid "Link Photos to Instagram?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:678
+msgid "Do you want to link the Instagram photos to instagram.com website?"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:681
+msgid "Add Instagram Photos"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:699
+msgid "Select Products"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:701
+msgid "Set your products to show on hover"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:714
+msgid "Add a Look Book element"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:719
+msgid "Play Button"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:725
+msgid "For Row Video Backgrounds"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:730
+msgid "Products"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:738 inc/visualcomposer-extend.php:817
+msgid "Product Sort"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:749 inc/visualcomposer-extend.php:756
+#: inc/visualcomposer-extend.php:827
+msgid "Select the order of the products you'd like to show."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:753 inc/visualcomposer-extend.php:858
+#: inc/visualcomposer-extend.php:889
+msgid "Product Category"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:761 inc/visualcomposer-extend.php:831
+msgid "Product IDs"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:763 inc/visualcomposer-extend.php:833
+msgid "Enter the products IDs you would like to display seperated by comma"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:768
+msgid "Carousel"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:774
+msgid "Select yes to display the products in a carousel."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:778 inc/visualcomposer-extend.php:838
+msgid "Number of Items"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:781 inc/visualcomposer-extend.php:841
+msgid "The number of products to show."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:794 inc/visualcomposer-extend.php:904
+msgid "Select the layout of the products."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:797
+msgid "Add WooCommerce products"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:802
+msgid "Product List"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:810 inc/wp3menu.php:423
+msgid "Title"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:813
+msgid "Title of the widget"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:845
+msgid "Add WooCommerce products in a list"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:850
+msgid "Product Category Grid"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:861 inc/visualcomposer-extend.php:892
+msgid "Select the categories you would like to display"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:873
+msgid "This applies different grid structures"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:876
+msgid "Display Product Category Grid"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:881
+msgid "Product Categories"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:907
+msgid "Add WooCommerce product categories"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:912
+msgid "Posts"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:920
+msgid "Post Source"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:922
+msgid "Set your post source here"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:933
+msgid "Select the layout of the posts."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:936
+msgid "Display Posts from your blog"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:941
+msgid "Subscription Form"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:947
+msgid "Add a subscription form"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:952
+msgid "Team Member"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:960
+msgid "Select Team Member Image"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:962
+msgid "Minimum size is 270x270 pixels"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:969
+msgid "Enter name of the team member"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:973
+msgid "Position"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:975
+msgid "Enter position/title of the team member"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:979
+msgid "Facebook"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:981
+msgid "Enter Facebook Link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:985
+msgid "Twitter"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:987
+msgid "Enter Twitter Link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:991
+msgid "Pinterest"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:993
+msgid "Enter Pinterest Link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:997
+msgid "Linkedin"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:999
+msgid "Enter Linkedin Link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1002
+msgid "Display your team members in a stylish way"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1007
+msgid "Testimonial Slider"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1024
+msgid "This changes the layout style of the testimonials"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1027
+msgid "Testimonials Slider"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1031
+msgid "Testimonial"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1040
+msgid "Quote"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1042
+msgid "Quote you want to show"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1046
+msgid "Author"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1049
+msgid "Name of the member."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1053
+msgid "Author Title"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1055
+msgid "Title that will appear below author name."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1059
+msgid "Author Image"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1061
+msgid "Add Author image here. Could be used depending on style."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1064
+msgid "Single Testimonial"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1072
+msgid "Affect Header Colors"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1078
+msgid ""
+"If enabled, this slider will affect header colors. Please make sure that "
+"every slide has an image background."
+msgstr ""
+
+#: inc/widgets/latest-posts-images.php:7
+msgid "Display latest posts with images"
+msgstr ""
+
+#: inc/widgets/latest-posts-images.php:12
+msgid "Fuel Themes - Latest Posts with Images"
+msgstr ""
+
+#: inc/widgets/subscribe.php:9
+msgid "A widget that gathers email addresses."
+msgstr ""
+
+#: inc/widgets/subscribe.php:14
+msgid "Fuel Themes - Subscribe Widget"
+msgstr ""
+
+#: inc/widgets/subscribe.php:38 vc_templates/thb_subscribe.php:10
+msgid "Your E-Mail"
+msgstr ""
+
+#: inc/widgets/subscribe.php:65
+msgid "Widget Title:"
+msgstr ""
+
+#: inc/widgets/subscribe.php:70
+msgid "Short Description:"
+msgstr ""
+
+#: inc/widgets/subscribe.php:76
+msgid "Download Emails"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:19
+msgid "North Settings"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:22
+#: inc/woocommerce-category-image.php:135
+msgid "Header"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:27
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:28
+msgid "Remove image"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:54
+msgid "Choose an image"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:56
+msgid "Use image"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:89
+msgid "Category Header Color"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:94
+msgid "Category header color"
+msgstr ""
+
+#: inc/woocommerce-category-image.php:134
+msgid "Image"
+msgstr ""
+
+#: inc/woocommerce.php:121
+msgid "Shopping Bag"
+msgstr ""
+
+#: inc/woocommerce.php:150 inc/woocommerce.php:153
+msgid "Quick Shop"
+msgstr ""
+
+#: inc/woocommerce.php:159
+msgid "Categories"
+msgstr ""
+
+#: inc/woocommerce.php:192 inc/woocommerce.php:193
+msgid "Cart"
+msgstr ""
+
+#: inc/woocommerce.php:217
+msgid "Out of Stock"
+msgstr ""
+
+#: inc/woocommerce.php:242
+msgid "Sale"
+msgstr ""
+
+#: inc/woocommerce.php:249
+msgid "Just Arrived"
+msgstr ""
+
+#: inc/woocommerce.php:320
+msgid "Add To Wishlist"
+msgstr ""
+
+#: inc/woocommerce.php:323
+msgid "Added to Wishlist"
+msgstr ""
+
+#: inc/woocommerce.php:325
+msgid "View Wishlist"
+msgstr ""
+
+#: inc/woocommerce.php:349
+msgid "Sizing Guide"
+msgstr ""
+
+#: inc/woocommerce.php:392
+msgid "Explore Now"
+msgstr ""
+
+#: inc/wp3menu.php:302
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/wp3menu.php:306
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/wp3menu.php:330
+msgid "Move up"
+msgstr ""
+
+#: inc/wp3menu.php:343
+msgid "Move down"
+msgstr ""
+
+#: inc/wp3menu.php:345 inc/wp3menu.php:347
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/wp3menu.php:356
+msgid "URL"
+msgstr ""
+
+#: inc/wp3menu.php:363
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/wp3menu.php:369
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/wp3menu.php:376
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/wp3menu.php:381
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/wp3menu.php:387
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/wp3menu.php:393
+msgid "Description"
+msgstr ""
+
+#: inc/wp3menu.php:395
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/wp3menu.php:403
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/wp3menu.php:411 inc/wp3menu.php:431
+msgid "Enable"
+msgstr ""
+
+#: inc/wp3menu.php:416
+msgid "Mega Menu Background"
+msgstr ""
+
+#: inc/wp3menu.php:438
+msgid "Move"
+msgstr ""
+
+#: inc/wp3menu.php:439
+msgid "Up one"
+msgstr ""
+
+#: inc/wp3menu.php:440
+msgid "Down one"
+msgstr ""
+
+#: inc/wp3menu.php:443
+msgid "To the top"
+msgstr ""
+
+#: inc/wp3menu.php:449
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/wp3menu.php:462
+msgid "Remove"
+msgstr ""
+
+#: inc/wp3menu.php:463
+msgid "Cancel"
+msgstr ""
+
+#: inc/wpml.php:18
+msgid "Add Languages"
+msgstr ""
+
+#: vc_templates/thb_instagram.php:39
+msgid "Please fill out Instagram Settings inside Appearance > Theme Options"
+msgstr ""
+
+#: vc_templates/thb_lookbook.php:35
+msgid "Shop This Look"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:32
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart.php:26
+msgid "Shopping Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:80
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:98
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:39 woocommerce/cart/cart.php:104
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:40 woocommerce/cart/cart.php:121
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:61
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:93
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139 woocommerce/checkout/form-coupon.php:29
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:23
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:32
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:57
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:15
+#: woocommerce/checkout/form-coupon.php:25
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:16
+#: woocommerce/checkout/form-coupon.php:25
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:30
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:27
+#: woocommerce/checkout/form-login.php:36
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:28
+#: woocommerce/checkout/form-login.php:36
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:41
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:33
+#: woocommerce/myaccount/form-login.php:59
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:35
+#: woocommerce/myaccount/form-login.php:107
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:47
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+#: woocommerce/myaccount/form-login.php:97
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:61
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:65
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:83
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:90
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search Products&hellip;"
+msgstr ""
+
+#: woocommerce/single-product/product-image-style1.php:53
+#: woocommerce/single-product/product-image-style2.php:45
+#: woocommerce/single-product/product-image-style3.php:53
+#: woocommerce/single-product/product-image-style4.php:41
+#: woocommerce/single-product/product-image-style5.php:41
+msgid "Awaiting product image"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Error 404"
+#~ msgstr "﻿Error 404"

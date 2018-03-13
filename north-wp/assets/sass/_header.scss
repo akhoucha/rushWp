@@ -1,0 +1,384 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px 0;
+	z-index: 100;
+	font-size: 14px;
+	color: $color1;
+	@extend .quick-transition;
+	@extend .admin-style;
+	@include min-break($break-medium) {
+		padding: 25px 0;
+	}	
+	&>.row {
+		position: relative;
+	}
+	.logolink {
+		display: block;
+		position: relative;
+		.logoimg {
+			display: block;
+			max-height: 22px;
+			&.bg--dark {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				opacity: 0;
+			}
+		}
+	}
+	&.hover,
+	&:hover {
+		background: #fff;
+	}
+	&.style1 {
+		.logo-holder {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			@include translate3d(-50%,-50%,0);
+		}
+	}
+	&.style2 {
+		.logo-holder {
+			display: inline-flex;
+		}
+		.menu-holder {
+			display: none;
+			
+			@include min-break($break-medium) {
+				display: inline-flex;	
+			}
+		}
+		.menu-holder {
+			margin-left: 50px;
+		}
+		.logo-and-menu,
+		.toggle-holder {
+			display: flex;
+			align-items: center;
+		}
+		.logo-and-menu {
+			justify-content: center;
+			@include min-break($break-medium) {
+				justify-content: flex-start;
+			}
+		}
+	}
+	.account-holder {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		
+		a {
+			display: inline-flex;
+			align-items: center;
+			margin-left: 10px;
+			@include min-break($break-medium) {
+				margin-left: 20px;
+			}	
+		}
+	}
+	#quick_search {
+		display: none;
+		
+		@include min-break($break-small) {
+			display: inline-flex;
+		}	
+	}
+	#quick_cart {
+		.float_count {
+			margin-left: 10px;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			border-radius: 10px;
+			display: inline-flex;
+			background: #cacaca;
+			color: #fff;
+			font-size: 11px;
+			font-weight: 600;
+			justify-content: center;
+			@extend .quick-transition;
+			&:hover {
+				background: $color1;	
+			}
+		}
+	}
+}
+
+/* Light Header */
+.white-header {
+	.logolink {
+		.logoimg {
+			opacity: 0;
+			&.bg--dark {
+				opacity: 1;
+			}
+		}
+	}
+	.thb-full-menu > li {
+		a:not(:hover) {
+			color: #fff;
+		}
+		&.current-menu-item:not(.has-hash) {
+			&>a {
+				color: $color2;	
+			}
+		}
+	}
+	.account-holder,
+	.toggle-holder {
+		a {
+			color: #fff;	
+		}
+	}
+}
+.light-title .header:not(.hover):not(:hover) {
+	@extend .white-header;
+}
+/* Full Menu */
+.thb-full-menu {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 1;
+	
+	&.socials {
+		margin-left: 30px;
+		
+		li {
+			& + li {
+				margin-left: 10px;
+			}	
+		}
+	}
+	&>li {
+		display: inline-flex;
+		& + li {
+			margin-left: 30px;
+		}	
+		
+		a {
+			padding: 15px 0;
+			position: relative;
+			white-space: nowrap;
+			&:before {
+				content: '';
+				position: absolute;
+				bottom: 12px;
+				left: 0;
+				right: 0;
+				border-bottom: 1px solid $color1;
+				@include transform-origin(0, 0);
+				@include scale(0,1);
+				@extend .quick-transition;
+			}
+			&:hover {
+				&:before {
+					@include scale(1,1);
+				}	
+			}
+			.fa {
+				margin-right: 7px;
+			}
+		}
+		&.menu-item-mega-parent {
+			&>.sub-menu {
+				flex-wrap: nowrap;
+				
+				&>li {
+					&.menu-item-has-children {
+						&>.sub-menu {
+							padding-top: 20px;
+							padding-bottom: 0;
+							opacity: 1 !important;
+							position: static;
+							visibility: visible !important;
+							box-shadow: none;
+							min-width: 100%;
+							background: none;
+							&>li {
+								padding: 0;
+								
+								&.menu-item-has-children {
+									&>a {
+										&:after {
+											content: "\f105";
+										}	
+									}
+									.sub-menu {
+										padding: 30px 0;
+										top: -30px;
+										li {
+											padding: 0 30px;	
+										}
+									}
+								}
+							}
+						}
+					}
+					&.mega-menu-title {
+						&>a {
+							font-size: 12px;
+							text-transform: uppercase;	
+							font-weight: 600;
+							&:after {
+								display: none;	
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	li {
+		margin: 0;
+		white-space: nowrap;
+		
+		&.menu-item-has-children {
+			position: relative;
+			&>a {
+				&:before {
+					right: 18px;	
+				}
+				&:after {
+			    display: inline-flex;
+			    content: "\f107";
+			    font-family: FontAwesome;
+			    margin-left: 10px;
+			    vertical-align: middle;
+			    font-size: 11px;
+				}	
+			}
+			&.mega-menu-title {
+				&>a {
+					&:before {
+						right: 0;	
+					}
+				}	
+			}
+		}
+		&.current-menu-item:not(.has-hash) {
+			&:before {
+				@include scale(1,1);
+			}
+		}
+	}
+	.sub-menu {
+		padding: 40px 0;
+		margin: 0;
+		list-style: none;
+		background: #fff;
+		position: absolute;
+		min-width: calc(100% + 80px);
+		top: 100%;
+		left: -40px;
+		opacity: 0;
+		z-index: 10;
+		visibility: hidden;
+		box-shadow: 0 0 8px rgba(0,0,0,0.08);
+		li {
+			display: block;
+			padding: 0 40px;	
+			margin-bottom: 15px;
+			line-height: 1.1;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			a {
+				display: inline-block;
+				position: relative;
+				color: $color1;
+				padding: 0;
+				opacity: 0;
+				@include translateX(10px);
+				
+				&:before {
+					bottom: -3px;	
+				}
+			}
+			&.title-item {
+				a {
+					font-size: 12px;
+					margin-top: 20px;
+					text-transform: uppercase;	
+					font-weight: 600;
+				}
+			}
+		}
+		.sub-menu {
+			top: -40px;
+			left: 100%;
+		}
+		&.has_bg {
+			background-repeat: no-repeat;
+			background-position: right center;
+			background-size: contain;
+			padding-right: 220px;
+		}
+	}
+}
+.secondary-menu {
+	display: none;
+	list-style: none;
+	margin: 0;
+	@include min-break($break-medium) {
+		display: inline-flex;	
+	}
+	li {
+		display: inline-flex;	
+		margin: 0;
+	}
+}
+.thb-global-notification {
+	background: $color1;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 300;
+	line-height: 1;
+	padding: 10px 0;
+	
+	@extend .admin-style;
+	a,
+	a:hover {
+		color: #fff;	
+	}
+	.thb-notification-close {
+		position: absolute;
+		top: 50%;
+		right: 15px;
+		margin-top: -5px;
+		svg {
+			fill: #fff;	
+		}
+	}
+	p {
+		margin: 0;
+	}
+	& + .header {
+		margin-top: 40px;
+	}
+}
+
+.shop-header-style2 {
+	margin-bottom: 10vh;
+	background-size: cover;
+	.thb-shop-title {
+		margin: 10vh 0 12vh;
+		
+		.light-title & {
+			color: #fff;
+		}
+	}
+}

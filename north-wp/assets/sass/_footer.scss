@@ -1,0 +1,116 @@
+.footer {
+	&.style1 {
+		padding: 30px 0;
+		
+		@include min-break($break-small) {
+			padding: 45px 0;	
+		}
+		.footer-left-side {
+			text-align: center;
+			@include min-break($break-small) {
+				text-align: left;	
+			}
+		}
+		.footer-right-side {
+			text-align: center;
+			@include min-break($break-small) {
+				text-align: right;	
+			}
+		}
+	}
+	&.style2 {
+		background: #f4f4f4;
+		padding: 60px 0;
+		margin-top: 60px;
+		font-size: 14px;
+		
+		p {
+			color: $color1;
+		}
+		
+	}
+	.widget {
+		h6 {
+			font-weight: 600;
+			color: #b2b2b2;
+			text-transform: uppercase;
+			font-size: 12px;
+		}
+	}
+	.paymenttypes {
+		display: inline-block;
+		margin: 0;
+		width: 50px;
+		height: 20px;
+		vertical-align: middle;
+		background: transparent url('../img/payment-types.png') top left;
+		background-size: 50px 270px;
+		&.payment_visa {
+			background-position: 0 -4px;
+		}
+		&.payment_mc {
+			background-position: 0 -34px;
+		}
+		&.payment_pp {
+			background-position: 0 -64px;
+		}
+		&.payment_discover {
+			background-position: 0 -94px;
+		}
+		&.payment_stripe {
+			background-position: 0 -124px;
+		}
+		&.payment_amazon {
+			background-position: 0 -154px;
+		}
+		&.payment_amex {
+			background-position: 0 -184px;
+		}
+		&.payment_diners {
+			background-position: 0 -214px;
+		}
+		&.payment_wallet {
+			background-position: 0 -244px;
+		}
+	}
+	.thb-footer-menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		line-height: 1;
+		font-size: 14px;
+		li {
+			display: inline-flex;
+			margin: 0 5px;	
+			
+			@include min-break($break-small) {
+				margin-right: 15px;	
+				margin-left: 0;
+			}
+		}
+		& + .thb-footer-copyright {
+			margin-top: 12px;
+			@include min-break($break-small) {
+				margin-top: 22px;	
+			}
+		}
+	}
+	.thb-footer-copyright {
+		font-size: 12px;
+		color: rgba(#000,0.6);
+	}
+	.footer-social-icons {
+		margin-top: 35px;
+		@include min-break($break-small) {
+			margin: 0;
+		}
+		.social {
+			font-size: 14px;
+			display: inline-flex;
+			margin: 0 5px;
+		}
+		& + .footer-payment-icons {
+			margin-top: 10px;
+		}
+	}
+}

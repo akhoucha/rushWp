@@ -1,0 +1,351 @@
+form {
+	margin: 0;
+
+	fieldset {
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+}
+/* Buttons */
+.btn,
+.button,
+input[type=submit] {
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0 15px;
+	text-align: center;
+	height: 42px;
+	line-height: 40px;
+	border: 1px solid $color1;
+	margin: 0;
+	display: inline-flex;
+	justify-content: center;
+	cursor: pointer;
+	outline: 0;
+	color: #fff;
+	background: $color1;
+	text-shadow: none !important;
+	justify-content: center;
+	@include box-shadow(none);
+	@include appearance(none);
+	@include border-radius(0);
+	@extend .transition;
+	
+	@include min-break($break-small) {
+		padding: 0 26px;
+	}
+	
+	i {
+		display: inline-flex;
+	}
+	&:focus {
+		color: #fff;	
+	}
+	&:hover {
+		background: #333;
+		border-color: #333;
+		color: #fff;
+	}
+	&.full {
+		width: 100%;
+	}
+	&.large,
+	&.single_add_to_cart_button {
+		padding: 0 15px;
+		height: 46px;
+		line-height: 44px;
+		@include min-break($break-small) {
+			padding: 0 36px;
+		}
+	}
+	&.white {
+		border-color: #fff;
+		background: #fff;
+		color: $color1;
+		&:hover {
+			color: $color1;
+			background: darken(#fff, 5%);	
+			border-color: darken(#fff, 5%);
+		}
+		&:focus {
+			color: $color1;	
+		}
+	}
+	&.pill {
+		border-radius: 21px;
+		
+		&.large {
+			border-radius: 23px;
+		}
+	}
+	&.alt,
+	&.wc-forward:not(.checkout) {
+		background: transparent;
+		color: $color1;
+		&:hover {
+			color: #fff;
+			background: $color1;	
+			
+			&:focus {
+				color: #fff;	
+			}
+		}
+		&:focus {
+			color: $color1;	
+		}
+		&.white {
+			border-color: #fff;
+			background: transparent;
+			color: #fff;
+			
+			&:hover {
+				border-color: #fff;
+				color: $color1;	
+				background: #fff;
+				
+				&:focus {
+					color: $color1;	
+				}
+			}
+			&:focus {
+				color: #fff;	
+			}
+		}
+	}
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+	display: inline-flex;
+	border: 1px solid $color2;
+	padding: 0 16px;
+	height: 42px;
+	line-height: 42px;
+	margin-bottom: 20px;
+	color: #737373;
+	font-size: 14px;
+	background: #fff;
+	max-width: 100%;
+	outline: 0;
+	@include border-radius(0);
+	@include box-shadow(none);
+	@include appearance(none);
+	@extend .quick-transition;
+	&:focus {
+		border-color: $color1;
+		color: $color1;
+	}
+	&.wpcf7-not-valid,
+	.woocommerce-invalid-required-field &,
+	.woocommerce-invalid &{
+		border-color: #e76049;
+	}
+	&.full,
+	.form-row & {
+		width: 100%;
+	}
+}
+.wpcf7-form-control-wrap {
+	width: 100%;
+}
+label {
+	display: inline-block;
+	font-size: 12px;
+	color: $color1;
+	margin: 0 0 10px;
+	text-align: left;
+	line-height: 1;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+textarea {
+	min-height: 108px;
+	padding: 7px 14px;
+	.wpcf7-form & {
+		min-height: 200px;
+	}
+}
+
+.custom_check {
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	& + .custom_label,
+	& + .woocommerce-form__label-for-checkbox {
+	  display: inline-block !important;
+	  margin: 0;
+	  padding: 0 0 0 23px;
+	  min-height: 16px;
+	  line-height: 18px;
+	  position: relative;
+	  text-transform:	none;
+	  
+	  @extend .transition;
+
+	  &:before {
+	  	content:"";
+			display: block;
+			width: 16px;
+			height: 16px;
+			border: 1px solid #b8b8b8;
+			position: absolute;
+			top: 0;
+			left: 0;
+			@extend .transition;
+	  }
+	  &:after {
+	  	content: '';
+	  	position: absolute;
+	  	top: 0;
+	  	left: 0;
+	  	display: block;
+	  	width: 16px;
+	  	height: 16px;
+	  	line-height: 18px;
+	  	text-align: center;
+	  }
+	  &:hover {
+			&:before {
+				border-color: $color1;
+			}	
+	  }
+	}
+	
+	&:checked + .custom_label:before {
+		border-color: $color1;
+	}
+	&:checked + .custom_label:after {
+		content: '×';
+	}
+}
+input[type="radio"].custom_check {
+	
+	& + .custom_label:before {
+		@include border-radius(10px);
+	}
+	&:checked + .custom_label:before {
+		border-color: $color1;
+		border-width: 3px;
+	}
+	&:checked + .custom_label:after {
+		content: '';
+	}
+}
+.wpcf7-form-control-wrap {
+	@extend .cf;
+}
+select {
+	@include appearance(none);	
+	border: 1px solid $color2;
+	padding: 0 16px;
+	height: 42px;
+	line-height: 42px;
+	color: #737373;
+	font-size: 14px;
+	
+	background: #fff url('../img/select_arrow.png') calc(100% - 22px) 20px no-repeat;
+	background-size: 7px 4px;
+	position: relative;
+	
+}
+/* Select2 */
+.form-row.woocommerce-invalid-required-field {
+	.select2-container .select2-choice  {
+		border-color: #e76049;
+	}
+}
+.select2-container--default {
+	margin-bottom: 25px;
+	clear: left;
+	font-size: 14px;
+	height: 42px;
+	.select2-selection__arrow {
+		&:before {
+			content: "\f107";
+	    display: block;
+	    font-family: FontAwesome;
+	    font-style: normal;
+	    font-weight: normal;	
+		}
+		b {
+			display: none;	
+		}
+	}
+	&.select2-container--open {
+		.select2-selection--single {
+			border-color: $color1;	
+		}
+	}
+	.select2-selection--single {
+		border-radius: 0;
+		border-color: $color2;
+		height: 42px;
+		line-height: 42px;
+		
+		.select2-selection__rendered {
+			height: 42px;
+			line-height: 42px;
+			padding-left: 16px;
+		}
+	}
+}
+
+.select2-dropdown {
+	@include border-radius(0);
+	@include box-shadow(none);
+	border-color: $color1;
+	
+	.rtl & {
+		left: auto;
+		right: -9999px;
+	}
+	&.select2-drop-active {
+		border-color: $color1;
+		
+		&.select2-drop-above {
+			border-top-color: $color1;
+		}
+	}
+	.select2-search {
+		padding: 8px;
+		input {
+			background: #fff !important;
+			margin-bottom: 5px;
+		}
+	}
+	
+	.select2-results {
+		background: #fff;
+		font-size: 14px;
+		
+		.select2-results__option {
+			margin: 0;
+			height: 42px;
+			line-height: 42px;
+			padding: 0 16px;
+			&[aria-selected=true] {
+				background: $color2;	
+			}
+			&.select2-results__option--highlighted {
+				background: $color1;
+				border-radius: 0;
+				color: #fff;
+			}
+		}
+	}
+}
+.select2-container-single .select2-search input[type=text] {
+	background: #fff !important;
+}
